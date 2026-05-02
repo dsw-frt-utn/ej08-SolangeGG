@@ -28,6 +28,16 @@
             string resultado3= p3.CompararCopias(5, producto);
 
             Console.WriteLine(resultado3);
+
+            var p4 = new Problema4();
+
+            Console.WriteLine(p4.CalcularPromedio(10, 8, 6)); 
+            
+            Console.WriteLine(p4.CalcularPromedio(10, null, 4));  
+            
+            Console.WriteLine(p4.CalcularPromedio(null, null, null)); 
+
+            Console.WriteLine(p4.CalcularPromedio(10, -2, 20));      
         }
     }
 }
