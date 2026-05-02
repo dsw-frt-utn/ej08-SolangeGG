@@ -20,6 +20,14 @@
             string resul2 = p2.CrearResumenVenta(2023, "Album23", 0, 500);
 
             Console.WriteLine(resul2);
+
+            var producto = new Product("Figuritas");
+
+            var p3 = new Problema3();
+
+            string resultado3= p3.CompararCopias(5, producto);
+
+            Console.WriteLine(resultado3);
         }
     }
 }
