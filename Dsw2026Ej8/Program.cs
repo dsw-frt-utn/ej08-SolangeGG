@@ -37,7 +37,15 @@
             
             Console.WriteLine(p4.CalcularPromedio(null, null, null)); 
 
-            Console.WriteLine(p4.CalcularPromedio(10, -2, 20));      
+            Console.WriteLine(p4.CalcularPromedio(10, -2, 20));
+
+            var p5 = new Problema5();
+
+            Sale venta1 = new RetailSale(5000);
+            Sale venta2 = new WholesaleSale(5000);
+
+            Console.WriteLine(p5.ObtenerImporteFinal(venta1));
+            Console.WriteLine(p5.ObtenerImporteFinal(venta2));
         }
     }
 }
