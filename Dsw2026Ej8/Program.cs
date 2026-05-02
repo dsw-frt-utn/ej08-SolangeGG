@@ -10,6 +10,16 @@
             string resultado = helper.ObtenerEtiquetaProducto(2026, "Figuritas", 2000);
 
             Console.WriteLine(resultado);
+
+            var p2 = new Problema2();
+
+            string resul1 = p2.CrearResumenVenta(2022, "Album22", 2, 12000);
+
+            Console.WriteLine(resul1);
+
+            string resul2 = p2.CrearResumenVenta(2023, "Album23", 0, 500);
+
+            Console.WriteLine(resul2);
         }
     }
 }
