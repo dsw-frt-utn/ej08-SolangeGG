@@ -46,6 +46,10 @@
 
             Console.WriteLine(p5.ObtenerImporteFinal(venta1));
             Console.WriteLine(p5.ObtenerImporteFinal(venta2));
+
+            var p6 = new Problema6();
+            Console.WriteLine(p6.NormalizarCodigoProducto(" ab 123 x ")); 
+            Console.WriteLine(p6.NormalizarCodigoProducto(null)); 
         }
     }
 }
